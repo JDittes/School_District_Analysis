@@ -37,7 +37,4 @@ THS_math_percentage[0]`
 1. This shows that we can maintain the accuracy of our data while nullifying suspect scores. WE 'clearned' the data in the dataset by replacing fraudulent scores with 'NaN' values. 
 2. Our Per-student budget numbers stayed the same, even with the nullified data, as did our data per school size and school type.
 3. Our % Passing Scores changed slightly, to reflect the lack of the 9th-grade scores. But calculating the overal school scores was still possible, even with the new (9th-grade-less) student counts.
-4. Our % Passing scores by grade did reflect the NaNs we used to replace the fraudulent 9th-grade scores ![scores by grade]()
-
-There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
-
+4. Our % Passing scores by grade did reflect the NaNs we used to replace the fraudulent 9th-grade scores ![scores by grade](https://github.com/JDittes/School_District_Analysis/blob/main/9th-grade%20Nan.png)
